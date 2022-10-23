@@ -1,4 +1,4 @@
-<!--DOCTYPEhtml-->
+<!DOCTYPE html>
 <html> <!--thats mean any thing between this is html--><!--start-->
 
     <head> <!--part 1--> <!--start--> <!--information about web page-->
@@ -8,17 +8,18 @@
         <meta name="keywords" content="mahmoud,karama">
         <meta name="author" content="mahmoud karama">
         <title>Mahmoudkarama's personal site</title>
-        <!--table style-->
-        <!--<style>
-            table , th ,td{
-                border: 1px solid black;
-                border-collapse: collapse;
-                border-color: darkgoldenrod;
-                stroke-width: 100px;
-                background-color: blanchedalmond;
-                
+        <!--use link to define  external css sheet , "rel"relationship, " href"-->
+        <!--external css-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--external css
+        <style>
+            body {                               
+                background-color: red;
             }
-        </style>-->
+        </style>  
+         -->                               
+    
+
     </head> <!--end-->
 
     <body> <!--part 2--> <!--start-->
@@ -30,13 +31,13 @@
                     add your photo to same direction , "alt"it is mean alternative if browser 
                     cant download the src photo and it is help for SEO-->
                     <!--you can add photo link by using anchor tag <a href="  ">  </a>-->
-                    <img src="images/my photo1.png"alt="mahmoud karama profile photo 1" width="300px" height="300px">
+                    <img class=" profilephoto" src="imagies/photo1.jpg" alt="???????" />
                 </td>
                 <td>
                     <!--you can define your text style by defirent tag <b></b>, <strong></strong>,
                     <i></i>italic, <em><?em>, <sub></sub>,<sup></sup>-->
                     <h1><strong>MAHMOUD KARAMA</strong></h1>
-                    <P aria-posinset="centre"><em>full stack developer</em></P>
+                    <P><em>full stack developer</em></P>
                     <!--to make link to other page use anchor tag <a href="direct to">the word appear</a>-->
                     <!-- to add phone use tel:--> <!--to add email use mailto-->
                     <h4>Phone Number: <a href="tel:+96566148202">+965 66 148 202</a></h4>
@@ -129,7 +130,7 @@
         and use anchor tag-->
         <a href="hobbies.html" target="_blank">My Hobbies</a>
         <br> <hr>
-        <a href="my contact.html" target="_blank">My contact</a>
+        <a href="contact.html" target="_blank">My contact</a>
         <hr>
 
     </body> <!--end-->
