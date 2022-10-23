@@ -1,0 +1,20 @@
+body {
+      background-color: #eaf6f6;}
+hr {
+      border-color: grey;
+      border-style: none;
+      border-top-style: dotted;
+      border-width: 5px;
+      width: 5%;} 
+h1 {
+    color:#66bfbf;
+}
+h3 {
+    color:#B1AFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profilephoto {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
