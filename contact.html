@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="mahmoud karama contacts">
+        <title>my contact</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>contact me</h1>
+        <p>I Will Be Happy For Your Contact</p>
+        <p><h3>Email:</h3><a href="mailto:mahmoud1.karama2@gmail.com" target="_blank">mahmoud1.karama2@gmail.com</a></p>
+        <p><h3>phone:</h3><a href="tel:+66148202" target="_blank">+965 66 148 202</a></p>
+        <br>
+        <hr>
+        <!--
+        <form action="">
+            <label>Your Name:</label>
+            <input type="text"><br>
+            <br>
+            <label>Birth day</label>
+            <input type="datetime-local"><br>
+            <br>
+            <label>Favorite color</label>
+            <input type="color" name="fcolor" id="fcolor" value="#7867"><br>
+            <br>
+            <p>favorite language</p><br>
+            <input type="radio" value="HTML">
+            <label>HTML</label><br>
+            <input type="radio">
+            <label>CSS</label><br>
+            <input type="radio">
+            <label>PYTHON</label><br>
+            <br>
+            <label>phone number</label>
+            <input type="number"><br>
+            <br>
+            <label>Email</label>
+            <input type="mail" width="50%"><br>
+            <br>
+            <label>Password</label>
+            <input type="password"><br>
+            <br>
+            <input type="submit">
+        </form>
+         -->
+         <!--to add form to website use tag <form></form>-->
+         <!--attribute "action" it mean action after submit the input , "mailto:"maen send to .... , 
+         "enctype= text/plain"mean use plain text not UTF-8 -->
+         <form action="mailto:mahmoud1.karama2@gmail.com" method="post" enctype="text/plain">
+             <!--"<lable>...</lable>"" tag mean what is the title -->
+             <label>Your Name</label>
+             <!--"<input> "tag use to let the vistor insert any informatin
+             attribute"type=text,date,radio,checklist,color,range,time,number,email.." use for which 
+             tybe for coming data , "name=..." what the name for this data-->
+             <input type="text" name="Your Name"><br>
+             <label>Your mail</label>
+             <input type="email" name="YourEmail"><br>
+             <label>Your Massage</label><br>
+             <!--"<textarea></textarea>" use to make area for input massage. -->
+             <textarea name="name"cols="30" rows="10" name="Your Massage"></textarea><br>
+             <br>
+             <input type="submit">
+         </form>
+        <p>Thank You For Your Contact</p>
+    </body>
+</html>
